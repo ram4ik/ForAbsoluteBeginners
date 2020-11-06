@@ -15,6 +15,9 @@ struct ContentView: View {
                     NavigationLink("RenderingElements", destination: RenderingElements())
                     
                     NavigationLink("ErrorHeadlines", destination: Text("ErrorHeadlines").modifier(ErrorHeadlines()))
+                    
+                    NavigationLink("MyDebugView", destination: MyDebugView()
+                    )
                 }
             }.navigationBarTitle("Tips and Tricks")
         }
