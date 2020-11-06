@@ -25,6 +25,7 @@
 		1D6729E32555B99D003625ED /* AddingComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729E22555B99D003625ED /* AddingComments.swift */; };
 		1D6729E82555BA76003625ED /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729E72555BA76003625ED /* GridView.swift */; };
 		1D6729EC2555BEB0003625ED /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729EB2555BEB0003625ED /* AnimatedView.swift */; };
+		1D6729F02555BFEE003625ED /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729EF2555BFEE003625ED /* MagnifyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		1D6729E22555B99D003625ED /* AddingComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingComments.swift; sourceTree = "<group>"; };
 		1D6729E72555BA76003625ED /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		1D6729EB2555BEB0003625ED /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
+		1D6729EF2555BFEE003625ED /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			children = (
 				1D6729E72555BA76003625ED /* GridView.swift */,
 				1D6729EB2555BEB0003625ED /* AnimatedView.swift */,
+				1D6729EF2555BFEE003625ED /* MagnifyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				1D6729962555A4E4003625ED /* ContentView.swift in Sources */,
 				1D6729C02555AB4A003625ED /* PropertyWrappers.swift in Sources */,
 				1D6729C42555ABDB003625ED /* User.swift in Sources */,
+				1D6729F02555BFEE003625ED /* MagnifyView.swift in Sources */,
 				1D6729DF2555B8A0003625ED /* MyDebugView.swift in Sources */,
 				1D6729D12555B589003625ED /* RenderingElements.swift in Sources */,
 				1D6729DB2555B85F003625ED /* AddingDebugPrint.swift in Sources */,
