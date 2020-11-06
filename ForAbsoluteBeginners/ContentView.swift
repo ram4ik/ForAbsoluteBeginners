@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Form {
+                Section {
+                    NavigationLink("RenderingElements", destination: RenderingElements())
+                    
+                    NavigationLink("ErrorHeadlines", destination: Text("ErrorHeadlines").modifier(ErrorHeadlines()))
+                }
+            }.navigationBarTitle("Tips and Tricks")
+        }
     }
 }
 
