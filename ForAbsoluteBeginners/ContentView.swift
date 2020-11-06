@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         NavigationView {
             Form {
                 Section {
@@ -16,8 +17,12 @@ struct ContentView: View {
                     
                     NavigationLink("ErrorHeadlines", destination: Text("ErrorHeadlines").modifier(ErrorHeadlines()))
                     
-                    NavigationLink("MyDebugView", destination: MyDebugView()
-                    )
+                    NavigationLink("MyDebugView", destination: MyDebugView())
+                    
+                    NavigationLink("Comment", destination: Text("With Comment").comment("Introducing Comment!"))
+                    
+                    NavigationLink("GridView", destination: GridView())
+                    
                 }
             }.navigationBarTitle("Tips and Tricks")
         }
