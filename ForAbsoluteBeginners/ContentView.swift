@@ -27,6 +27,8 @@ struct ContentView: View {
                     
                     NavigationLink("MagnifyView", destination: MagnifyView())
                     
+                    NavigationLink("APIDataView", destination: APIDataView())
+                    
                 }
             }.navigationBarTitle("Tips and Tricks")
         }
