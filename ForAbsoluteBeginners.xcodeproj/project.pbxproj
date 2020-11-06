@@ -24,6 +24,7 @@
 		1D6729DF2555B8A0003625ED /* MyDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729DE2555B8A0003625ED /* MyDebugView.swift */; };
 		1D6729E32555B99D003625ED /* AddingComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729E22555B99D003625ED /* AddingComments.swift */; };
 		1D6729E82555BA76003625ED /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729E72555BA76003625ED /* GridView.swift */; };
+		1D6729EC2555BEB0003625ED /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6729EB2555BEB0003625ED /* AnimatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		1D6729DE2555B8A0003625ED /* MyDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDebugView.swift; sourceTree = "<group>"; };
 		1D6729E22555B99D003625ED /* AddingComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingComments.swift; sourceTree = "<group>"; };
 		1D6729E72555BA76003625ED /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		1D6729EB2555BEB0003625ED /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6729E72555BA76003625ED /* GridView.swift */,
+				1D6729EB2555BEB0003625ED /* AnimatedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				1D6729E32555B99D003625ED /* AddingComments.swift in Sources */,
 				1D6729D62555B6DE003625ED /* ModifyingContentStyle.swift in Sources */,
 				1D6729C82555AC3E003625ED /* UserData.swift in Sources */,
+				1D6729EC2555BEB0003625ED /* AnimatedView.swift in Sources */,
 				1D6729A52555A525003625ED /* PeekingInto.swift in Sources */,
 				1D6729962555A4E4003625ED /* ContentView.swift in Sources */,
 				1D6729C02555AB4A003625ED /* PropertyWrappers.swift in Sources */,

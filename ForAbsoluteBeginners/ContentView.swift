@@ -23,6 +23,8 @@ struct ContentView: View {
                     
                     NavigationLink("GridView", destination: GridView())
                     
+                    NavigationLink("AnimatedView", destination: AnimatedView())
+                    
                 }
             }.navigationBarTitle("Tips and Tricks")
         }
